@@ -71,11 +71,15 @@ def run_company(uen: str, skip_validation: bool = False, generate_xbrl: bool = F
     docx_path = _find_input(inputs_dir, uen, [".docx", ".doc"])
     if docx_path:
         from acra_helper.parser.word_parser import parse_word
-        from acra_helper.mapping.rtf_builder import build_rtf
+        from acra_helper.mapping.rtf_builder import build_rtf, convert_docx_to_rtf
 
         console.print(f"Parsing Word: {docx_path.name}")
         parsed_word = parse_word(docx_path)
-        rtf_text = build_rtf(parsed_word["full_text"])
+        rtf_text = convert_docx_to_rtf(docx_path)
+        if rtf_text is None:
+            console.print("[yellow]LibreOffice not found — using plain-text FS block "
+                          "(tables/formatting will not be preserved)[/yellow]")
+            rtf_text = build_rtf(parsed_word["full_text"])
         mapped_facts.append({
             "element": "sg-as:DisclosureOfCompleteSetOfFinancialStatementsTextBlock",
             "context": f"fromto_{fye.year-1+1:04d}0101_{fye.strftime('%Y%m%d')}",
