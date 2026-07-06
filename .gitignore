@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Build / generated output
+output/
+
+# Input documents (company data)
+inputs/
+
+# Local settings
+.claude/settings.local.json

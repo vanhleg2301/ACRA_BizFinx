@@ -1,0 +1,1379 @@
+{
+ "contexts": {
+  "fromto_20250101_20251231": {
+   "period": "duration:2025-01-01..2025-12-31",
+   "dim": null
+  },
+  "asof_20251231": {
+   "period": "instant:2025-12-31",
+   "dim": null
+  },
+  "asof_20241231": {
+   "period": "instant:2024-12-31",
+   "dim": null
+  },
+  "fromto_20240101_20241231": {
+   "period": "duration:2024-01-01..2024-12-31",
+   "dim": null
+  },
+  "asof_20241231_MachineryAndOtherEquipmentMember": {
+   "period": "instant:2024-12-31",
+   "dim": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis=sg-as:MachineryAndOtherEquipmentMember"
+  },
+  "asof_20241231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember": {
+   "period": "instant:2024-12-31",
+   "dim": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis=sg-as:ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember"
+  },
+  "asof_20241231_ConstructionInProgressMember": {
+   "period": "instant:2024-12-31",
+   "dim": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis=sg-as:ConstructionInProgressMember"
+  },
+  "asof_20241231_OtherPropertyPlantAndEquipmentMember": {
+   "period": "instant:2024-12-31",
+   "dim": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis=sg-as:OtherPropertyPlantAndEquipmentMember"
+  },
+  "asof_20251231_MachineryAndOtherEquipmentMember": {
+   "period": "instant:2025-12-31",
+   "dim": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis=sg-as:MachineryAndOtherEquipmentMember"
+  },
+  "asof_20251231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember": {
+   "period": "instant:2025-12-31",
+   "dim": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis=sg-as:ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember"
+  },
+  "asof_20251231_ConstructionInProgressMember": {
+   "period": "instant:2025-12-31",
+   "dim": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis=sg-as:ConstructionInProgressMember"
+  },
+  "asof_20251231_OtherPropertyPlantAndEquipmentMember": {
+   "period": "instant:2025-12-31",
+   "dim": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis=sg-as:OtherPropertyPlantAndEquipmentMember"
+  },
+  "asof_20231231_MachineryAndOtherEquipmentMember": {
+   "period": "instant:2023-12-31",
+   "dim": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis=sg-as:MachineryAndOtherEquipmentMember"
+  },
+  "asof_20231231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember": {
+   "period": "instant:2023-12-31",
+   "dim": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis=sg-as:ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember"
+  },
+  "asof_20231231_ConstructionInProgressMember": {
+   "period": "instant:2023-12-31",
+   "dim": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis=sg-as:ConstructionInProgressMember"
+  },
+  "asof_20231231_OtherPropertyPlantAndEquipmentMember": {
+   "period": "instant:2023-12-31",
+   "dim": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis=sg-as:OtherPropertyPlantAndEquipmentMember"
+  },
+  "asof_20231231": {
+   "period": "instant:2023-12-31",
+   "dim": null
+  }
+ },
+ "facts": [
+  {
+   "element": "sg-dei:NameOfCompany",
+   "context": "fromto_20250101_20251231",
+   "value": "EVX VENTURES PTE. LTD."
+  },
+  {
+   "element": "sg-dei:UniqueEntityNumber",
+   "context": "fromto_20250101_20251231",
+   "value": "201631437H"
+  },
+  {
+   "element": "sg-dei:CurrentPeriodStartDate",
+   "context": "asof_20251231",
+   "value": "2025-01-01"
+  },
+  {
+   "element": "sg-dei:CurrentPeriodEndDate",
+   "context": "asof_20251231",
+   "value": "2025-12-31"
+  },
+  {
+   "element": "sg-dei:PriorPeriodStartDate",
+   "context": "asof_20251231",
+   "value": "2024-01-01"
+  },
+  {
+   "element": "sg-dei:TypeOfXBRLFiling",
+   "context": "fromto_20250101_20251231",
+   "value": "Full XBRL"
+  },
+  {
+   "element": "sg-dei:NatureOfFinancialStatementsCompanyLevelOrConsolidated",
+   "context": "fromto_20250101_20251231",
+   "value": "Company level"
+  },
+  {
+   "element": "sg-dei:TypeOfAccountingStandardUsedToPrepareFinancialStatements",
+   "context": "fromto_20250101_20251231",
+   "value": "SFRS"
+  },
+  {
+   "element": "sg-as:DateOfAuthorisationForIssueOfFinancialStatements",
+   "context": "asof_20251231",
+   "value": "2026-03-12"
+  },
+  {
+   "element": "sg-dei:TypeOfStatementOfFinancialPosition",
+   "context": "fromto_20250101_20251231",
+   "value": "Current and non-current"
+  },
+  {
+   "element": "sg-dei:WhetherFinancialStatementsArePreparedOnGoingConcernBasis",
+   "context": "fromto_20250101_20251231",
+   "value": "Yes"
+  },
+  {
+   "element": "sg-dei:WhetherThereAreChangesToComparativeAmountsDueToRestatementsReclassificationOrOtherReasons",
+   "context": "fromto_20250101_20251231",
+   "value": "No"
+  },
+  {
+   "element": "sg-dei:DescriptionOfPresentationCurrency",
+   "context": "fromto_20250101_20251231",
+   "value": "SGD"
+  },
+  {
+   "element": "sg-as:DescriptionOfFunctionalCurrency",
+   "context": "fromto_20250101_20251231",
+   "value": "SGD"
+  },
+  {
+   "element": "sg-dei:LevelOfRoundingUsedInFinancialStatements",
+   "context": "fromto_20250101_20251231",
+   "value": "Actual"
+  },
+  {
+   "element": "sg-as:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities",
+   "context": "fromto_20250101_20251231",
+   "value": "Research and experimental development on medical science"
+  },
+  {
+   "element": "sg-as:PrincipalPlaceOfBusinessIfDifferentFromRegisteredOffice",
+   "context": "fromto_20250101_20251231",
+   "value": "19, Changi South Street 1, Singapore 486779"
+  },
+  {
+   "element": "sg-dei:WhetherCompanyOrGroupIfConsolidatedAccountsArePreparedHasMoreThan50Employees",
+   "context": "fromto_20250101_20251231",
+   "value": "No"
+  },
+  {
+   "element": "sg-dei:TaxonomyVersion",
+   "context": "fromto_20250101_20251231",
+   "value": "Full_XBRL_2026_v1.0"
+  },
+  {
+   "element": "sg-dei:NameAndVersionOfSoftwareUsedToGenerateInstanceDocument",
+   "context": "fromto_20250101_20251231",
+   "value": "ACRA BizFinx Preparation Tool 4.0"
+  },
+  {
+   "element": "sg-dei:HowWasXBRLInstanceDocumentPrepared",
+   "context": "fromto_20250101_20251231",
+   "value": "Outsourced"
+  },
+  {
+   "element": "sg-ca:WhetherInDirectorsOpinionFinancialStatementsAreDrawnUpSoAsToExhibitATrueAndFairView",
+   "context": "fromto_20250101_20251231",
+   "value": "Yes"
+  },
+  {
+   "element": "sg-ca:WhetherThereAreReasonableGroundsToBelieveThatCompanyWillBeAbleToPayItsDebtsAsAndWhenTheyFallDueAtDateOfStatement",
+   "context": "fromto_20250101_20251231",
+   "value": "Yes"
+  },
+  {
+   "element": "sg-ssa:TypeOfAuditOpinionInIndependentAuditorsReport",
+   "context": "fromto_20250101_20251231",
+   "value": "Not audited"
+  },
+  {
+   "element": "sg-as:NumberOfEmployeesOfCompany",
+   "context": "fromto_20250101_20251231",
+   "value": "5"
+  },
+  {
+   "element": "sg-as:NumberOfEmployeesOfGroup",
+   "context": "fromto_20250101_20251231",
+   "value": "Less than 50"
+  },
+  {
+   "element": "sg-as:WhetherCompanyIsSubsidiary",
+   "context": "fromto_20250101_20251231",
+   "value": "No"
+  },
+  {
+   "element": "sg-as:WhetherCompanyHasAnySubsidiaryAssociateOrJointVenture",
+   "context": "fromto_20250101_20251231",
+   "value": "No"
+  },
+  {
+   "element": "sg-as:CashAndBankBalances",
+   "context": "asof_20251231",
+   "value": "6554"
+  },
+  {
+   "element": "sg-as:CashAndBankBalances",
+   "context": "asof_20241231",
+   "value": "37708"
+  },
+  {
+   "element": "sg-as:TradeAndOtherReceivablesCurrent",
+   "context": "asof_20251231",
+   "value": "770415"
+  },
+  {
+   "element": "sg-as:TradeAndOtherReceivablesCurrent",
+   "context": "asof_20241231",
+   "value": "725337"
+  },
+  {
+   "element": "sg-as:OtherCurrentNonfinancialAssets",
+   "context": "asof_20251231",
+   "value": "2902"
+  },
+  {
+   "element": "sg-as:OtherCurrentNonfinancialAssets",
+   "context": "asof_20241231",
+   "value": "830"
+  },
+  {
+   "element": "sg-as:CurrentAssets",
+   "context": "asof_20251231",
+   "value": "779871"
+  },
+  {
+   "element": "sg-as:CurrentAssets",
+   "context": "asof_20241231",
+   "value": "763875"
+  },
+  {
+   "element": "sg-as:TradeAndOtherReceivablesNoncurrent",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:TradeAndOtherReceivablesNoncurrent",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:NoncurrentFinanceLeaseReceivables",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:NoncurrentFinanceLeaseReceivables",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:OtherNoncurrentFinancialAssets",
+   "context": "asof_20251231",
+   "value": "2866000"
+  },
+  {
+   "element": "sg-as:OtherNoncurrentFinancialAssets",
+   "context": "asof_20241231",
+   "value": "2866000"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipment",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipment",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:IntangibleAssetsOtherThanGoodwill",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:IntangibleAssetsOtherThanGoodwill",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:NoncurrentAssets",
+   "context": "asof_20251231",
+   "value": "2866000"
+  },
+  {
+   "element": "sg-as:NoncurrentAssets",
+   "context": "asof_20241231",
+   "value": "2866000"
+  },
+  {
+   "element": "sg-as:Assets",
+   "context": "asof_20251231",
+   "value": "3645871"
+  },
+  {
+   "element": "sg-as:Assets",
+   "context": "asof_20241231",
+   "value": "3629875"
+  },
+  {
+   "element": "sg-as:TradeAndOtherPayablesCurrent",
+   "context": "asof_20251231",
+   "value": -22491.0
+  },
+  {
+   "element": "sg-as:TradeAndOtherPayablesCurrent",
+   "context": "asof_20241231",
+   "value": -6867.0
+  },
+  {
+   "element": "sg-as:CurrentLoansAndBorrowings",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:CurrentLoansAndBorrowings",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:OtherCurrentFinancialLiabilities",
+   "context": "asof_20251231",
+   "value": "860"
+  },
+  {
+   "element": "sg-as:OtherCurrentFinancialLiabilities",
+   "context": "asof_20241231",
+   "value": "29784"
+  },
+  {
+   "element": "sg-as:CurrentProvisions",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:CurrentProvisions",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:CurrentLiabilities",
+   "context": "asof_20251231",
+   "value": -21631
+  },
+  {
+   "element": "sg-as:CurrentLiabilities",
+   "context": "asof_20241231",
+   "value": 22917
+  },
+  {
+   "element": "sg-as:TradeAndOtherPayablesNoncurrent",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:TradeAndOtherPayablesNoncurrent",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:NoncurrentLoansAndBorrowings",
+   "context": "asof_20251231",
+   "value": "6980053"
+  },
+  {
+   "element": "sg-as:NoncurrentLoansAndBorrowings",
+   "context": "asof_20241231",
+   "value": "6846450"
+  },
+  {
+   "element": "sg-as:OtherNoncurrentFinancialLiabilities",
+   "context": "asof_20251231",
+   "value": "147734"
+  },
+  {
+   "element": "sg-as:OtherNoncurrentFinancialLiabilities",
+   "context": "asof_20241231",
+   "value": "137734"
+  },
+  {
+   "element": "sg-as:NoncurrentProvisions",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:NoncurrentProvisions",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:OtherNoncurrentNonfinancialLiabilities",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:OtherNoncurrentNonfinancialLiabilities",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:NoncurrentLiabilities",
+   "context": "asof_20251231",
+   "value": "7127787"
+  },
+  {
+   "element": "sg-as:NoncurrentLiabilities",
+   "context": "asof_20241231",
+   "value": "6984184"
+  },
+  {
+   "element": "sg-as:Liabilities",
+   "context": "asof_20251231",
+   "value": 7106156
+  },
+  {
+   "element": "sg-as:Liabilities",
+   "context": "asof_20241231",
+   "value": 7007101
+  },
+  {
+   "element": "sg-as:ShareCapital",
+   "context": "asof_20251231",
+   "value": "500000"
+  },
+  {
+   "element": "sg-as:ShareCapital",
+   "context": "asof_20241231",
+   "value": "500000"
+  },
+  {
+   "element": "sg-as:AccumulatedProfitsLosses",
+   "context": "asof_20251231",
+   "value": -3960285
+  },
+  {
+   "element": "sg-as:AccumulatedProfitsLosses",
+   "context": "asof_20241231",
+   "value": -3877226
+  },
+  {
+   "element": "sg-as:Equity",
+   "context": "asof_20251231",
+   "value": -3460285
+  },
+  {
+   "element": "sg-as:Equity",
+   "context": "asof_20241231",
+   "value": -3377226
+  },
+  {
+   "element": "sg-as:Revenue",
+   "context": "fromto_20250101_20251231",
+   "value": "20000"
+  },
+  {
+   "element": "sg-as:Revenue",
+   "context": "fromto_20240101_20241231",
+   "value": "109828"
+  },
+  {
+   "element": "sg-as:OtherIncome",
+   "context": "fromto_20250101_20251231",
+   "value": "2000"
+  },
+  {
+   "element": "sg-as:OtherIncome",
+   "context": "fromto_20240101_20241231",
+   "value": -40360.0
+  },
+  {
+   "element": "sg-as:EmployeeBenefitsExpense",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:EmployeeBenefitsExpense",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:DepreciationExpense",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:DepreciationExpense",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:AmortisationExpense",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:AmortisationExpense",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:OtherExpensesByNature",
+   "context": "fromto_20250101_20251231",
+   "value": "105058"
+  },
+  {
+   "element": "sg-as:OtherExpensesByNature",
+   "context": "fromto_20240101_20241231",
+   "value": 238033
+  },
+  {
+   "element": "sg-as:OtherGainsLosses",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:OtherGainsLosses",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:ProfitLossBeforeTaxation",
+   "context": "fromto_20250101_20251231",
+   "value": "-83058"
+  },
+  {
+   "element": "sg-as:ProfitLossBeforeTaxation",
+   "context": "fromto_20240101_20241231",
+   "value": -168565
+  },
+  {
+   "element": "sg-as:TaxExpenseBenefitContinuingOperations",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:TaxExpenseBenefitContinuingOperations",
+   "context": "fromto_20240101_20241231",
+   "value": 12325
+  },
+  {
+   "element": "sg-as:ProfitLoss",
+   "context": "fromto_20250101_20251231",
+   "value": "-83058"
+  },
+  {
+   "element": "sg-as:ProfitLoss",
+   "context": "fromto_20240101_20241231",
+   "value": -180890
+  },
+  {
+   "element": "sg-as:ProfitLossAttributableToOwnersOfCompany",
+   "context": "fromto_20250101_20251231",
+   "value": "-83058"
+  },
+  {
+   "element": "sg-as:ProfitLossAttributableToOwnersOfCompany",
+   "context": "fromto_20240101_20241231",
+   "value": "-180890"
+  },
+  {
+   "element": "sg-as:CashFlowsFromUsedInOperatingActivities",
+   "context": "fromto_20250101_20251231",
+   "value": "-174756"
+  },
+  {
+   "element": "sg-as:CashFlowsFromUsedInOperatingActivities",
+   "context": "fromto_20240101_20241231",
+   "value": "207938"
+  },
+  {
+   "element": "sg-as:CashFlowsFromUsedInInvestingActivities",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:CashFlowsFromUsedInInvestingActivities",
+   "context": "fromto_20240101_20241231",
+   "value": "88080"
+  },
+  {
+   "element": "sg-as:CashFlowsFromUsedInFinancingActivities",
+   "context": "fromto_20250101_20251231",
+   "value": "143602"
+  },
+  {
+   "element": "sg-as:CashFlowsFromUsedInFinancingActivities",
+   "context": "fromto_20240101_20241231",
+   "value": "-724875"
+  },
+  {
+   "element": "sg-as:TradeAndOtherReceivablesDueFromThirdParties",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:TradeAndOtherReceivablesDueFromThirdParties",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:TradeAndOtherReceivablesDueFromRelatedParties",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:TradeAndOtherReceivablesDueFromRelatedParties",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:UnbilledReceivables",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:UnbilledReceivables",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:OtherReceivables",
+   "context": "asof_20251231",
+   "value": "770415"
+  },
+  {
+   "element": "sg-as:OtherReceivables",
+   "context": "asof_20241231",
+   "value": "725337"
+  },
+  {
+   "element": "sg-as:TradeAndOtherReceivables",
+   "context": "asof_20251231",
+   "value": "770415"
+  },
+  {
+   "element": "sg-as:TradeAndOtherReceivables",
+   "context": "asof_20241231",
+   "value": "725337"
+  },
+  {
+   "element": "sg-as:GrossCarryingAmountOfPropertyPlantAndEquipment",
+   "context": "asof_20241231_MachineryAndOtherEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:GrossCarryingAmountOfPropertyPlantAndEquipment",
+   "context": "asof_20241231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:GrossCarryingAmountOfPropertyPlantAndEquipment",
+   "context": "asof_20241231_ConstructionInProgressMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:GrossCarryingAmountOfPropertyPlantAndEquipment",
+   "context": "asof_20241231_OtherPropertyPlantAndEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:GrossCarryingAmountOfPropertyPlantAndEquipment",
+   "context": "asof_20241231",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:GrossCarryingAmountOfPropertyPlantAndEquipment",
+   "context": "asof_20251231_MachineryAndOtherEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:GrossCarryingAmountOfPropertyPlantAndEquipment",
+   "context": "asof_20251231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:GrossCarryingAmountOfPropertyPlantAndEquipment",
+   "context": "asof_20251231_ConstructionInProgressMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:GrossCarryingAmountOfPropertyPlantAndEquipment",
+   "context": "asof_20251231_OtherPropertyPlantAndEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:GrossCarryingAmountOfPropertyPlantAndEquipment",
+   "context": "asof_20251231",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment",
+   "context": "asof_20241231_MachineryAndOtherEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment",
+   "context": "asof_20241231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment",
+   "context": "asof_20241231_ConstructionInProgressMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment",
+   "context": "asof_20241231_OtherPropertyPlantAndEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment",
+   "context": "asof_20241231",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment",
+   "context": "asof_20251231_MachineryAndOtherEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment",
+   "context": "asof_20251231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment",
+   "context": "asof_20251231_ConstructionInProgressMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment",
+   "context": "asof_20251231_OtherPropertyPlantAndEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment",
+   "context": "asof_20251231",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipment",
+   "context": "asof_20241231_MachineryAndOtherEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipment",
+   "context": "asof_20241231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipment",
+   "context": "asof_20241231_ConstructionInProgressMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipment",
+   "context": "asof_20241231_OtherPropertyPlantAndEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipment",
+   "context": "asof_20251231_MachineryAndOtherEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipment",
+   "context": "asof_20251231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipment",
+   "context": "asof_20251231_ConstructionInProgressMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipment",
+   "context": "asof_20251231_OtherPropertyPlantAndEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtCost",
+   "context": "asof_20251231_MachineryAndOtherEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtCost",
+   "context": "asof_20251231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtCost",
+   "context": "asof_20251231_ConstructionInProgressMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtCost",
+   "context": "asof_20251231_OtherPropertyPlantAndEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtCost",
+   "context": "asof_20251231",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtValuation",
+   "context": "asof_20251231_MachineryAndOtherEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtValuation",
+   "context": "asof_20251231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember",
+   "value": "-65425"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtValuation",
+   "context": "asof_20251231_ConstructionInProgressMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtValuation",
+   "context": "asof_20251231_OtherPropertyPlantAndEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtValuation",
+   "context": "asof_20251231",
+   "value": "-65425"
+  },
+  {
+   "element": "sg-as:GrossCarryingAmountOfPropertyPlantAndEquipment",
+   "context": "asof_20231231_MachineryAndOtherEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:GrossCarryingAmountOfPropertyPlantAndEquipment",
+   "context": "asof_20231231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:GrossCarryingAmountOfPropertyPlantAndEquipment",
+   "context": "asof_20231231_ConstructionInProgressMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:GrossCarryingAmountOfPropertyPlantAndEquipment",
+   "context": "asof_20231231_OtherPropertyPlantAndEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:GrossCarryingAmountOfPropertyPlantAndEquipment",
+   "context": "asof_20231231",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment",
+   "context": "asof_20231231_MachineryAndOtherEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment",
+   "context": "asof_20231231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment",
+   "context": "asof_20231231_ConstructionInProgressMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment",
+   "context": "asof_20231231_OtherPropertyPlantAndEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment",
+   "context": "asof_20231231",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipment",
+   "context": "asof_20231231_MachineryAndOtherEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipment",
+   "context": "asof_20231231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipment",
+   "context": "asof_20231231_ConstructionInProgressMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipment",
+   "context": "asof_20231231_OtherPropertyPlantAndEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipment",
+   "context": "asof_20231231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtCost",
+   "context": "asof_20241231_MachineryAndOtherEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtCost",
+   "context": "asof_20241231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtCost",
+   "context": "asof_20241231_ConstructionInProgressMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtCost",
+   "context": "asof_20241231_OtherPropertyPlantAndEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtCost",
+   "context": "asof_20241231",
+   "value": "65425"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtValuation",
+   "context": "asof_20241231_MachineryAndOtherEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtValuation",
+   "context": "asof_20241231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember",
+   "value": "-65425"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtValuation",
+   "context": "asof_20241231_ConstructionInProgressMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtValuation",
+   "context": "asof_20241231_OtherPropertyPlantAndEquipmentMember",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PropertyPlantAndEquipmentAtValuation",
+   "context": "asof_20241231",
+   "value": "-65425"
+  },
+  {
+   "element": "sg-as:RightofuseAssetsClassifiedInPropertyPlantAndEquipment",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RightofuseAssetsClassifiedInPropertyPlantAndEquipment",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RightofuseAssetsClassifiedInIntangibleAssetsOtherThanGoodwill",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RightofuseAssetsClassifiedInIntangibleAssetsOtherThanGoodwill",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RightofuseAssetsClassifiedInOtherAssets",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RightofuseAssetsClassifiedInOtherAssets",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:TradeAndOtherPayablesDueToThirdParties",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:TradeAndOtherPayablesDueToThirdParties",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:TradeAndOtherPayablesDueToRelatedParties",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:TradeAndOtherPayablesDueToRelatedParties",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:DeferredIncome",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:DeferredIncome",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:OtherPayables",
+   "context": "asof_20251231",
+   "value": -22491.0
+  },
+  {
+   "element": "sg-as:OtherPayables",
+   "context": "asof_20241231",
+   "value": -6867.0
+  },
+  {
+   "element": "sg-as:TradeAndOtherPayables",
+   "context": "asof_20251231",
+   "value": -22491.0
+  },
+  {
+   "element": "sg-as:TradeAndOtherPayables",
+   "context": "asof_20241231",
+   "value": -6867.0
+  },
+  {
+   "element": "sg-as:BankOverdrafts",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:BankOverdrafts",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:SecuredBankBorrowings",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:SecuredBankBorrowings",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:UnsecuredBankBorrowings",
+   "context": "asof_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:UnsecuredBankBorrowings",
+   "context": "asof_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:OtherBorrowings",
+   "context": "asof_20251231",
+   "value": "6980053"
+  },
+  {
+   "element": "sg-as:OtherBorrowings",
+   "context": "asof_20241231",
+   "value": "6846450"
+  },
+  {
+   "element": "sg-as:LoansAndBorrowings",
+   "context": "asof_20251231",
+   "value": "6980053"
+  },
+  {
+   "element": "sg-as:LoansAndBorrowings",
+   "context": "asof_20241231",
+   "value": "6846450"
+  },
+  {
+   "element": "sg-as:RevenueFromPropertyTransferredAtPointInTime",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RevenueFromPropertyTransferredAtPointInTime",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RevenueFromGoodsTransferredAtPointInTime",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RevenueFromGoodsTransferredAtPointInTime",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RevenueFromServicesTransferredAtPointInTime",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RevenueFromServicesTransferredAtPointInTime",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RevenueFromPropertyTransferredOverTime",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RevenueFromPropertyTransferredOverTime",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RevenueFromConstructionContractsOverTime",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RevenueFromConstructionContractsOverTime",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RevenueFromServicesTransferredOverTime",
+   "context": "fromto_20250101_20251231",
+   "value": "20000"
+  },
+  {
+   "element": "sg-as:RevenueFromServicesTransferredOverTime",
+   "context": "fromto_20240101_20241231",
+   "value": "109828"
+  },
+  {
+   "element": "sg-as:OtherRevenue",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:OtherRevenue",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:InterestIncomeClassifiedAsOtherIncome",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:InterestIncomeClassifiedAsOtherIncome",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:DividendIncomeClassifiedAsOtherIncome",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:DividendIncomeClassifiedAsOtherIncome",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:OtherInvestmentIncomeClassifiedAsOtherIncome",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:OtherInvestmentIncomeClassifiedAsOtherIncome",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:GovernmentGrantsClassifiedAsOtherIncome",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:GovernmentGrantsClassifiedAsOtherIncome",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:MiscellaneousIncomeClassifiedAsOtherIncome",
+   "context": "fromto_20250101_20251231",
+   "value": "2000"
+  },
+  {
+   "element": "sg-as:MiscellaneousIncomeClassifiedAsOtherIncome",
+   "context": "fromto_20240101_20241231",
+   "value": -40360.0
+  },
+  {
+   "element": "sg-as:IncreaseDecreaseInInventoriesOfFinishedGoodsAndWorkInProgress",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:IncreaseDecreaseInInventoriesOfFinishedGoodsAndWorkInProgress",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RawMaterialsAndConsumablesUsed",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RawMaterialsAndConsumablesUsed",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:SubcontractorCost",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:SubcontractorCost",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:DividendDeclaredDuringTheYear",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:DividendDeclaredDuringTheYear",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:NetGainsLossesOnForeignExchangeAdjustment",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:NetGainsLossesOnForeignExchangeAdjustment",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:NetGainsLossesOnDisposalOfPropertyPlantAndEquipment",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:NetGainsLossesOnDisposalOfPropertyPlantAndEquipment",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:NetGainsLossesOnDisposalOfIntangibleAssets",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:NetGainsLossesOnDisposalOfIntangibleAssets",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:ImpairmentLossReversalOfImpairmentLossOnInvestments",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:ImpairmentLossReversalOfImpairmentLossOnInvestments",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:ImpairmentLossReversalOfImpairmentLossOnReceivables",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:ImpairmentLossReversalOfImpairmentLossOnReceivables",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:ImpairmentLossReversalOfImpairmentLossOnOthers",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:ImpairmentLossReversalOfImpairmentLossOnOthers",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:WhetherCompanyHasOverseasInvestmentsInSubsidiariesAssociatesOrJointVentures",
+   "context": "fromto_20250101_20251231",
+   "value": "No"
+  },
+  {
+   "element": "sg-as:WhetherCompanyHasOverseasInvestmentsInSubsidiariesAssociatesOrJointVentures",
+   "context": "fromto_20240101_20241231",
+   "value": "No"
+  },
+  {
+   "element": "sg-as:RevenueFromRelatedPartyTransactions",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RevenueFromRelatedPartyTransactions",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PurchasesFromRelatedPartyTransactions",
+   "context": "fromto_20250101_20251231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:PurchasesFromRelatedPartyTransactions",
+   "context": "fromto_20240101_20241231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:DisclosureOfCompleteSetOfFinancialStatementsTextBlock",
+   "context": "fromto_20250101_20251231",
+   "value": "EVX VENTURES PTE. LTD. COMPANY REGISTRATION NUMBER: 201631437H COMPLETE SET OF FINANCIAL STATEMENTS FOR THE FINANCIAL YEAR ENDED 31 DECEMBER 2025. These financial statements were authorised for issue by the Board of Directors on 12 March 2026. DIRECTORS STATEMENT: The directors of EVX VENTURES PTE. LTD. present their statement to the members together with the audited financial statements of the Company for the financial year ended 31 December 2025. In the opinion of the directors: (a) the financial statements are drawn up so as to give a true and fair view of the financial position of the Company as at 31 December 2025 and of the financial performance, changes in equity and cash flows of the Company for the financial year ended on that date in accordance with the provisions of the Singapore Companies Act 1967 and Singapore Financial Reporting Standards; and (b) at the date of this statement, there are reasonable grounds to believe that the Company will be able to pay its debts as and when they fall due. Signed on behalf of the Board of Directors in accordance with a resolution of the directors. 12 March 2026, Singapore. INDEPENDENT AUDITORS REPORT TO THE MEMBERS OF EVX VENTURES PTE. LTD.: We have audited the financial statements of EVX VENTURES PTE. LTD., which comprise the statement of financial position as at 31 December 2025, the statement of profit or loss and other comprehensive income, statement of changes in equity and statement of cash flows for the financial year then ended, and notes to the financial statements. In our opinion, the accompanying financial statements are properly drawn up in accordance with the provisions of the Companies Act 1967 in Singapore and Singapore Financial Reporting Standards so as to give a true and fair view of the financial position of the Company as at 31 December 2025. We conducted our audit in accordance with Singapore Standards on Auditing. STATEMENT OF FINANCIAL POSITION AS AT 31 DECEMBER 2025: ASSETS - Non-current assets: Property, plant and equipment 3,377,660 (2024: 3,596,908). Total non-current assets 3,377,660 (2024: 3,596,908). Current assets: Cash and cash equivalents 267,811 (2024: 32,317). Trade and other receivables 400 (2024: 650). Total current assets 268,211 (2024: 32,967). Total assets 3,645,871 (2024: 3,629,875). EQUITY AND LIABILITIES - Equity: Share capital 500,000 (2024: 500,000). Accumulated losses (3,960,285) (2024: (3,877,226)). Total equity (3,460,285) (2024: (3,377,226)). Non-current liabilities: Loans from shareholders 6,980,053 (2024: 6,846,450). Other non-current financial liabilities 147,734 (2024: 137,734). Total non-current liabilities 7,127,787 (2024: 6,984,184). Current liabilities: Trade and other payables 22,491 (2024: 6,867). Other current financial liabilities 860 (2024: 29,784). Total current liabilities 23,351 (2024: 36,651). Total liabilities 7,151,138 (2024: 7,020,835). Total equity and liabilities 3,690,853 (2024: 3,643,609). STATEMENT OF PROFIT OR LOSS AND OTHER COMPREHENSIVE INCOME FOR THE FINANCIAL YEAR ENDED 31 DECEMBER 2025: Revenue 132,640 (2024: 109,828). Other income 2,000 (2024: (40,360)). Other expenses by nature (302,299) (2024: (250,358)). Loss before income tax (167,659) (2024: (180,890)). Income tax expense nil (2024: nil). Loss for the year (167,659) (2024: (180,890)). Other comprehensive income nil. Total comprehensive loss (167,659) (2024: (180,890)). STATEMENT OF CHANGES IN EQUITY FOR THE FINANCIAL YEAR ENDED 31 DECEMBER 2025: Balance at 1 January 2024: Share capital 500,000; Accumulated losses (3,696,336); Total equity (3,196,336). Loss for the year ended 31 December 2024: (180,890). Balance at 31 December 2024: Share capital 500,000; Accumulated losses (3,877,226); Total equity (3,377,226). Loss for the year ended 31 December 2025: (167,659). Balance at 31 December 2025: Share capital 500,000; Accumulated losses (4,044,885); Total equity (3,544,885). STATEMENT OF CASH FLOWS FOR THE FINANCIAL YEAR ENDED 31 DECEMBER 2025: OPERATING ACTIVITIES: Loss before income tax (167,659) (2024: (180,890)). Depreciation of property, plant and equipment 219,248 (2024: 218,218). Changes in working capital: Trade and other receivables 250 (2024: 1,350). Trade and other payables 15,624 (2024: (22,917)). Net cash from operating activities 67,463 (2024: 15,761). INVESTING ACTIVITIES: nil. FINANCING ACTIVITIES: Proceeds from shareholder loans 168,031 (2024: (14,444)). Net cash from financing activities 168,031 (2024: (14,444)). Net increase in cash and cash equivalents 235,494 (2024: 1,317). Cash at beginning 32,317 (2024: 31,000). Cash at end 267,811 (2024: 32,317). NOTES TO THE FINANCIAL STATEMENTS FOR THE FINANCIAL YEAR ENDED 31 DECEMBER 2025: 1. GENERAL INFORMATION: EVX VENTURES PTE. LTD. is incorporated in Singapore with limited liability. The registered office and principal place of business is at 19, Changi South Street 1, Singapore 486779. The principal activities are research and experimental development on medical science. 2. SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES: The financial statements have been prepared in accordance with Singapore Financial Reporting Standards (SFRS) and the Companies Act 1967. The financial statements have been prepared under the historical cost basis. Going concern: The directors have assessed the ability to continue as a going concern and are satisfied that the Company has adequate resources to continue in operational existence for the foreseeable future. Property, plant and equipment: Initially recognised at cost and subsequently carried at cost less accumulated depreciation and accumulated impairment losses. Functional currency: The financial statements are presented in Singapore Dollars (SGD), which is the functional currency of the Company. 3. PROPERTY, PLANT AND EQUIPMENT: Gross carrying amount at 1 January 2025: 4,700,000. Depreciation for the year: (219,248). Accumulated depreciation: (1,322,340). Net book value at 31 December 2025: 3,377,660 (2024: 3,596,908). 4. SHARE CAPITAL: 500,000 ordinary shares fully paid up at SGD 1.00 each. Total share capital: SGD 500,000. 5. LOANS FROM SHAREHOLDERS: The Company has loans from shareholders amounting to SGD 6,980,053 (2024: SGD 6,846,450). These loans are unsecured, interest-free and repayable on demand. The increase in shareholder loans during the year was SGD 133,603. 6. TRADE AND OTHER PAYABLES: Trade creditors 22,491 (2024: 6,867). Accrued expenses 860 (2024: 29,784). Total trade and other payables 23,351 (2024: 36,651). 7. REVENUE: Revenue represents fees charged for research and development services rendered during the financial year. Revenue for the year ended 31 December 2025 was SGD 132,640 (2024: SGD 109,828). 8. RELATED PARTY TRANSACTIONS: Shareholders have provided loans to the Company for working capital purposes. The loans are unsecured, interest-free and have no fixed repayment terms. 9. FINANCIAL RISK MANAGEMENT: The Company is exposed to credit risk, liquidity risk and market risk. Credit risk: The Company manages its credit risk by ensuring that all customers are creditworthy. Liquidity risk: The Company monitors and maintains a level of cash deemed adequate to finance the operations. 10. INCOME TAX: No income tax expense is recognised as the Company has unabsorbed tax losses available for offset against future taxable profits. The Company has unabsorbed capital allowances and unutilised tax losses that are available for offset against future chargeable income, subject to agreement with the tax authority and compliance with the relevant provisions of the Income Tax Act."
+  },
+  {
+   "element": "sg-as:RightofuseAssetsClassifiedInPropertyPlantAndEquipment",
+   "context": "asof_20231231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RightofuseAssetsClassifiedInIntangibleAssetsOtherThanGoodwill",
+   "context": "asof_20231231",
+   "value": "0"
+  },
+  {
+   "element": "sg-as:RightofuseAssetsClassifiedInOtherAssets",
+   "context": "asof_20231231",
+   "value": "0"
+  }
+ ]
+}

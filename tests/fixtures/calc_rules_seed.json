@@ -1,0 +1,147 @@
+{
+ "Assets": [
+  {"child": "CurrentAssets", "weight": 1},
+  {"child": "NoncurrentAssets", "weight": 1}
+ ],
+ "CurrentAssets": [
+  {"child": "CashAndBankBalances", "weight": 1},
+  {"child": "TradeAndOtherReceivablesCurrent", "weight": 1},
+  {"child": "CurrentFinanceLeaseReceivables", "weight": 1},
+  {"child": "CurrentDerivativeFinancialAssets", "weight": 1},
+  {"child": "CurrentFinancialAssetsMeasuredAtFairValueThroughProfitOrLoss", "weight": 1},
+  {"child": "OtherCurrentFinancialAssets", "weight": 1},
+  {"child": "DevelopmentProperties", "weight": 1},
+  {"child": "Inventories", "weight": 1},
+  {"child": "OtherCurrentNonfinancialAssets", "weight": 1},
+  {"child": "NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners", "weight": 1}
+ ],
+ "NoncurrentAssets": [
+  {"child": "TradeAndOtherReceivablesNoncurrent", "weight": 1},
+  {"child": "NoncurrentFinanceLeaseReceivables", "weight": 1},
+  {"child": "NoncurrentDerivativeFinancialAssets", "weight": 1},
+  {"child": "NoncurrentFinancialAssetsMeasuredAtFairValueThroughProfitOrLoss", "weight": 1},
+  {"child": "OtherNoncurrentFinancialAssets", "weight": 1},
+  {"child": "PropertyPlantAndEquipment", "weight": 1},
+  {"child": "InvestmentProperties", "weight": 1},
+  {"child": "Goodwill", "weight": 1},
+  {"child": "IntangibleAssetsOtherThanGoodwill", "weight": 1},
+  {"child": "InvestmentsInSubsidiariesAssociatesOrJointVentures", "weight": 1},
+  {"child": "DeferredTaxAssets", "weight": 1},
+  {"child": "OtherNoncurrentNonfinancialAssets", "weight": 1}
+ ],
+ "Liabilities": [
+  {"child": "CurrentLiabilities", "weight": 1},
+  {"child": "NoncurrentLiabilities", "weight": 1}
+ ],
+ "CurrentLiabilities": [
+  {"child": "TradeAndOtherPayablesCurrent", "weight": 1},
+  {"child": "CurrentLoansAndBorrowings", "weight": 1},
+  {"child": "CurrentFinancialLiabilitiesMeasuredAtFairValueThroughProfitOrLoss", "weight": 1},
+  {"child": "CurrentFinanceLeaseLiabilities", "weight": 1},
+  {"child": "OtherCurrentFinancialLiabilities", "weight": 1},
+  {"child": "CurrentIncomeTaxLiabilities", "weight": 1},
+  {"child": "CurrentProvisions", "weight": 1},
+  {"child": "OtherCurrentNonfinancialLiabilities", "weight": 1},
+  {"child": "LiabilitiesClassifiedAsHeldForSale", "weight": 1}
+ ],
+ "NoncurrentLiabilities": [
+  {"child": "TradeAndOtherPayablesNoncurrent", "weight": 1},
+  {"child": "NoncurrentLoansAndBorrowings", "weight": 1},
+  {"child": "NoncurrentFinancialLiabilitiesMeasuredAtFairValueThroughProfitOrLoss", "weight": 1},
+  {"child": "NoncurrentFinanceLeaseLiabilities", "weight": 1},
+  {"child": "OtherNoncurrentFinancialLiabilities", "weight": 1},
+  {"child": "DeferredTaxLiabilities", "weight": 1},
+  {"child": "NoncurrentProvisions", "weight": 1},
+  {"child": "OtherNoncurrentNonfinancialLiabilities", "weight": 1}
+ ],
+ "Equity": [
+  {"child": "NoncontrollingInterests", "weight": 1},
+  {"child": "ShareCapital", "weight": 1},
+  {"child": "TreasuryShares", "weight": 1},
+  {"child": "AccumulatedProfitsLosses", "weight": 1},
+  {"child": "ReservesOtherThanAccumulatedProfitsLosses", "weight": 1}
+ ],
+ "ProfitLoss": [
+  {"child": "ProfitLossBeforeTaxation", "weight": 1},
+  {"child": "TaxExpenseBenefitContinuingOperations", "weight": -1},
+  {"child": "ProfitLossFromDiscontinuedOperations", "weight": 1},
+  {"child": "ProfitLossAttributableToOwnersOfCompany", "weight": 1},
+  {"child": "ProfitLossAttributableToNoncontrollingInterests", "weight": 1}
+ ],
+ "ProfitLossBeforeTaxation": [
+  {"child": "Revenue", "weight": 1},
+  {"child": "OtherIncome", "weight": 1},
+  {"child": "EmployeeBenefitsExpense", "weight": -1},
+  {"child": "DepreciationExpense", "weight": -1},
+  {"child": "AmortisationExpense", "weight": -1},
+  {"child": "RepairsAndMaintenanceExpense", "weight": -1},
+  {"child": "SalesAndMarketingExpense", "weight": -1},
+  {"child": "OtherExpensesByNature", "weight": -1},
+  {"child": "OtherGainsLosses", "weight": 1},
+  {"child": "FinanceCosts", "weight": -1},
+  {"child": "ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod", "weight": 1}
+ ],
+ "TradeAndOtherReceivables": [
+  {"child": "TradeAndOtherReceivablesDueFromThirdParties", "weight": 1},
+  {"child": "TradeAndOtherReceivablesDueFromRelatedParties", "weight": 1},
+  {"child": "UnbilledReceivables", "weight": 1},
+  {"child": "OtherReceivables", "weight": 1}
+ ],
+ "sg-as_PropertyPlantAndEquipment": [
+  {"child": "sg-as_GrossCarryingAmountOfPropertyPlantAndEquipment", "weight": 1},
+  {"child": "sg-as_AccumulatedDepreciationAmortisationAndImpairmentOnPropertyPlantAndEquipment", "weight": -1}
+ ],
+ "sg-as_IntangibleAssetsOtherThanGoodwill": [
+  {"child": "sg-as_GrossCarryingAmountOfIntangibleAssets", "weight": 1},
+  {"child": "sg-as_AmortisationAndImpairmentOnIntangibleAssetsOtherThanGoodwillGross", "weight": -1}
+ ],
+ "TradeAndOtherPayables": [
+  {"child": "TradeAndOtherPayablesDueToThirdParties", "weight": 1},
+  {"child": "TradeAndOtherPayablesDueToRelatedParties", "weight": 1},
+  {"child": "DeferredIncome", "weight": 1},
+  {"child": "OtherPayables", "weight": 1}
+ ],
+ "LoansAndBorrowings": [
+  {"child": "BankOverdrafts", "weight": 1},
+  {"child": "SecuredBankBorrowings", "weight": 1},
+  {"child": "UnsecuredBankBorrowings", "weight": 1},
+  {"child": "OtherBorrowings", "weight": 1}
+ ],
+ "Revenue": [
+  {"child": "RevenueFromPropertyTransferredAtPointInTime", "weight": 1},
+  {"child": "RevenueFromGoodsTransferredAtPointInTime", "weight": 1},
+  {"child": "RevenueFromServicesTransferredAtPointInTime", "weight": 1},
+  {"child": "RevenueFromPropertyTransferredOverTime", "weight": 1},
+  {"child": "RevenueFromConstructionContractsOverTime", "weight": 1},
+  {"child": "RevenueFromServicesTransferredOverTime", "weight": 1},
+  {"child": "OtherRevenue", "weight": 1}
+ ],
+ "NetIncomeAsCalculatedForSelectedIncomeExpenses": [
+  {"child": "OtherIncome", "weight": 1},
+  {"child": "IncreaseDecreaseInInventoriesOfFinishedGoodsAndWorkInProgress", "weight": -1},
+  {"child": "RawMaterialsAndConsumablesUsed", "weight": -1},
+  {"child": "SubcontractorCost", "weight": -1},
+  {"child": "DividendDeclaredDuringTheYear", "weight": -1},
+  {"child": "NetGainsLossesOnForeignExchangeAdjustment", "weight": 1},
+  {"child": "NetGainsLossesOnDisposalOfPropertyPlantAndEquipment", "weight": 1},
+  {"child": "NetGainsLossesOnDisposalOfIntangibleAssets", "weight": 1},
+  {"child": "ImpairmentLossReversalOfImpairmentLossOnInvestments", "weight": -1},
+  {"child": "ImpairmentLossReversalOfImpairmentLossOnReceivables", "weight": -1},
+  {"child": "ImpairmentLossReversalOfImpairmentLossOnOthers", "weight": -1}
+ ],
+ "OtherIncome": [
+  {"child": "InterestIncomeClassifiedAsOtherIncome", "weight": 1},
+  {"child": "DividendIncomeClassifiedAsOtherIncome", "weight": 1},
+  {"child": "OtherInvestmentIncomeClassifiedAsOtherIncome", "weight": 1},
+  {"child": "GovernmentGrantsClassifiedAsOtherIncome", "weight": 1},
+  {"child": "MiscellaneousIncomeClassifiedAsOtherIncome", "weight": 1}
+ ],
+ "IntangibleAssetsOtherThanGoodwill": [
+  {"child": "IntangibleAssetsOtherThanGoodwillAtCost", "weight": 1},
+  {"child": "IntangibleAssetsOtherThanGoodwillAtValuation", "weight": 1}
+ ],
+ "PropertyPlantAndEquipment": [
+  {"child": "PropertyPlantAndEquipmentAtCost", "weight": 1},
+  {"child": "PropertyPlantAndEquipmentAtValuation", "weight": 1}
+ ]
+}

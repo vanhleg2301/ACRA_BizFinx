@@ -1,0 +1,70 @@
+{
+ "fromto_20250101_20251231": {
+  "period": {"type": "duration", "start": "2025-01-01", "end": "2025-12-31"},
+  "dimension": null
+ },
+ "asof_20251231": {
+  "period": {"type": "instant", "date": "2025-12-31"},
+  "dimension": null
+ },
+ "asof_20241231": {
+  "period": {"type": "instant", "date": "2024-12-31"},
+  "dimension": null
+ },
+ "fromto_20240101_20241231": {
+  "period": {"type": "duration", "start": "2024-01-01", "end": "2024-12-31"},
+  "dimension": null
+ },
+ "asof_20241231_MachineryAndOtherEquipmentMember": {
+  "period": {"type": "instant", "date": "2024-12-31"},
+  "dimension": {"axis": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis", "member": "sg-as:MachineryAndOtherEquipmentMember"}
+ },
+ "asof_20241231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember": {
+  "period": {"type": "instant", "date": "2024-12-31"},
+  "dimension": {"axis": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis", "member": "sg-as:ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember"}
+ },
+ "asof_20241231_ConstructionInProgressMember": {
+  "period": {"type": "instant", "date": "2024-12-31"},
+  "dimension": {"axis": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis", "member": "sg-as:ConstructionInProgressMember"}
+ },
+ "asof_20241231_OtherPropertyPlantAndEquipmentMember": {
+  "period": {"type": "instant", "date": "2024-12-31"},
+  "dimension": {"axis": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis", "member": "sg-as:OtherPropertyPlantAndEquipmentMember"}
+ },
+ "asof_20251231_MachineryAndOtherEquipmentMember": {
+  "period": {"type": "instant", "date": "2025-12-31"},
+  "dimension": {"axis": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis", "member": "sg-as:MachineryAndOtherEquipmentMember"}
+ },
+ "asof_20251231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember": {
+  "period": {"type": "instant", "date": "2025-12-31"},
+  "dimension": {"axis": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis", "member": "sg-as:ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember"}
+ },
+ "asof_20251231_ConstructionInProgressMember": {
+  "period": {"type": "instant", "date": "2025-12-31"},
+  "dimension": {"axis": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis", "member": "sg-as:ConstructionInProgressMember"}
+ },
+ "asof_20251231_OtherPropertyPlantAndEquipmentMember": {
+  "period": {"type": "instant", "date": "2025-12-31"},
+  "dimension": {"axis": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis", "member": "sg-as:OtherPropertyPlantAndEquipmentMember"}
+ },
+ "asof_20231231_MachineryAndOtherEquipmentMember": {
+  "period": {"type": "instant", "date": "2023-12-31"},
+  "dimension": {"axis": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis", "member": "sg-as:MachineryAndOtherEquipmentMember"}
+ },
+ "asof_20231231_ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember": {
+  "period": {"type": "instant", "date": "2023-12-31"},
+  "dimension": {"axis": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis", "member": "sg-as:ComputerOfficeEquipmentAndFurnitureFixturesAndFittingsMember"}
+ },
+ "asof_20231231_ConstructionInProgressMember": {
+  "period": {"type": "instant", "date": "2023-12-31"},
+  "dimension": {"axis": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis", "member": "sg-as:ConstructionInProgressMember"}
+ },
+ "asof_20231231_OtherPropertyPlantAndEquipmentMember": {
+  "period": {"type": "instant", "date": "2023-12-31"},
+  "dimension": {"axis": "sg-as:ClassesOfPropertyPlantAndEquipmentAxis", "member": "sg-as:OtherPropertyPlantAndEquipmentMember"}
+ },
+ "asof_20231231": {
+  "period": {"type": "instant", "date": "2023-12-31"},
+  "dimension": null
+ }
+}

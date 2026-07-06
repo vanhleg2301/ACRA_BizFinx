@@ -1,0 +1,111 @@
+# Mapping: Excel label → XBRL element + applicable context keys
+# Derived from fact_map_seed.json (EVX Ventures 2025).
+# Add rows here when unmapped_report.md lists new labels.
+
+mappings:
+  # ── Balance Sheet: Current Assets ──────────────────────────────────────────
+  - label: "Cash and bank balances"
+    element: "sg-as:CashAndBankBalances"
+    contexts: [asof_20251231, asof_20241231]
+
+  - label: "Trade and other receivables"
+    element: "sg-as:TradeAndOtherReceivablesCurrent"
+    contexts: [asof_20251231, asof_20241231]
+
+  - label: "Other receivables"
+    element: "sg-as:OtherReceivables"
+    contexts: [asof_20251231, asof_20241231]
+
+  - label: "Other current non-financial assets"
+    element: "sg-as:OtherCurrentNonfinancialAssets"
+    contexts: [asof_20251231, asof_20241231]
+
+  # ── Balance Sheet: Non-current Assets ──────────────────────────────────────
+  - label: "Other non-current financial assets"
+    element: "sg-as:OtherNoncurrentFinancialAssets"
+    contexts: [asof_20251231, asof_20241231]
+
+  - label: "Property, plant and equipment"
+    element: "sg-as:PropertyPlantAndEquipment"
+    contexts: [asof_20251231, asof_20241231]
+
+  - label: "Intangible assets"
+    element: "sg-as:IntangibleAssetsOtherThanGoodwill"
+    contexts: [asof_20251231, asof_20241231]
+
+  # ── Balance Sheet: Current Liabilities ────────────────────────────────────
+  - label: "Trade and other payables"
+    element: "sg-as:TradeAndOtherPayablesCurrent"
+    contexts: [asof_20251231, asof_20241231]
+
+  - label: "Other payables"
+    element: "sg-as:OtherPayables"
+    contexts: [asof_20251231, asof_20241231]
+
+  - label: "Other current financial liabilities"
+    element: "sg-as:OtherCurrentFinancialLiabilities"
+    contexts: [asof_20251231, asof_20241231]
+
+  # ── Balance Sheet: Non-current Liabilities ────────────────────────────────
+  - label: "Loans and borrowings"
+    element: "sg-as:NoncurrentLoansAndBorrowings"
+    contexts: [asof_20251231, asof_20241231]
+
+  - label: "Other non-current financial liabilities"
+    element: "sg-as:OtherNoncurrentFinancialLiabilities"
+    contexts: [asof_20251231, asof_20241231]
+
+  # ── Equity ─────────────────────────────────────────────────────────────────
+  - label: "Share capital"
+    element: "sg-as:ShareCapital"
+    contexts: [asof_20251231, asof_20241231]
+
+  - label: "Accumulated losses"
+    element: "sg-as:AccumulatedProfitsLosses"
+    contexts: [asof_20251231, asof_20241231]
+
+  # ── Income Statement ───────────────────────────────────────────────────────
+  - label: "Revenue"
+    element: "sg-as:Revenue"
+    contexts: [fromto_20250101_20251231, fromto_20240101_20241231]
+
+  - label: "Revenue from services transferred over time"
+    element: "sg-as:RevenueFromServicesTransferredOverTime"
+    contexts: [fromto_20250101_20251231, fromto_20240101_20241231]
+
+  - label: "Other income"
+    element: "sg-as:OtherIncome"
+    contexts: [fromto_20250101_20251231, fromto_20240101_20241231]
+
+  - label: "Miscellaneous income"
+    element: "sg-as:MiscellaneousIncomeClassifiedAsOtherIncome"
+    contexts: [fromto_20250101_20251231, fromto_20240101_20241231]
+
+  - label: "Other expenses"
+    element: "sg-as:OtherExpensesByNature"
+    contexts: [fromto_20250101_20251231, fromto_20240101_20241231]
+
+  - label: "Loss before tax"
+    element: "sg-as:ProfitLossBeforeTaxation"
+    contexts: [fromto_20250101_20251231, fromto_20240101_20241231]
+
+  - label: "Income tax expense"
+    element: "sg-as:TaxExpenseBenefitContinuingOperations"
+    contexts: [fromto_20250101_20251231, fromto_20240101_20241231]
+
+  - label: "Net loss"
+    element: "sg-as:ProfitLoss"
+    contexts: [fromto_20250101_20251231, fromto_20240101_20241231]
+
+  # ── Cash Flow ──────────────────────────────────────────────────────────────
+  - label: "Net cash from operating activities"
+    element: "sg-as:CashFlowsFromUsedInOperatingActivities"
+    contexts: [fromto_20250101_20251231, fromto_20240101_20241231]
+
+  - label: "Net cash from investing activities"
+    element: "sg-as:CashFlowsFromUsedInInvestingActivities"
+    contexts: [fromto_20250101_20251231, fromto_20240101_20241231]
+
+  - label: "Net cash from financing activities"
+    element: "sg-as:CashFlowsFromUsedInFinancingActivities"
+    contexts: [fromto_20250101_20251231, fromto_20240101_20241231]
