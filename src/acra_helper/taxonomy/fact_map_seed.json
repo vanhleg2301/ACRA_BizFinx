@@ -453,22 +453,22 @@
     {
       "element": "sg-as:AccumulatedProfitsLosses",
       "context": "asof_20251231",
-      "value": -3960285
+      "value": -4005267
     },
     {
       "element": "sg-as:AccumulatedProfitsLosses",
       "context": "asof_20241231",
-      "value": -3877226
+      "value": -3890960
     },
     {
       "element": "sg-as:Equity",
       "context": "asof_20251231",
-      "value": -3460285
+      "value": -3505267
     },
     {
       "element": "sg-as:Equity",
       "context": "asof_20241231",
-      "value": -3377226
+      "value": -3390960
     },
     {
       "element": "sg-as:Revenue",
@@ -568,7 +568,7 @@
     {
       "element": "sg-as:ProfitLoss",
       "context": "fromto_20240101_20241231",
-      "value": -180890
+      "value": -100170
     },
     {
       "element": "sg-as:ProfitLossAttributableToOwnersOfCompany",
@@ -578,7 +578,7 @@
     {
       "element": "sg-as:ProfitLossAttributableToOwnersOfCompany",
       "context": "fromto_20240101_20241231",
-      "value": "-180890"
+      "value": "-100170"
     },
     {
       "element": "sg-as:CashFlowsFromUsedInOperatingActivities",
