@@ -134,6 +134,33 @@
     }
     .card-title svg { color: var(--text-3); flex-shrink: 0; }
 
+    /* ── Guide ──────────────────────────────────────── */
+    .guide-card { padding: 0; }
+    .guide-summary {
+      list-style: none; cursor: pointer;
+      padding: 14px 20px;
+      display: flex; align-items: center; gap: 8px;
+      font-size: 12px; font-weight: 600; color: var(--text-2);
+      text-transform: uppercase; letter-spacing: 0.5px;
+      user-select: none;
+    }
+    .guide-summary::-webkit-details-marker { display: none; }
+    .guide-summary svg { color: var(--accent); flex-shrink: 0; }
+    .guide-chevron { margin-left: auto; color: var(--text-3); transition: transform var(--tr); font-size: 11px; }
+    .guide-card[open] .guide-chevron { transform: rotate(180deg); }
+    .guide-body {
+      padding: 2px 20px 18px; border-top: 1px solid var(--border);
+      font-size: 13px; color: var(--text-2); line-height: 1.6;
+    }
+    .guide-body p { margin: 12px 0 0; }
+    .guide-body code { font-family: monospace; font-size: 12px; background: var(--bg); padding: 1px 5px; border-radius: 4px; color: var(--text); }
+    .guide-steps { margin: 12px 0 0; padding-left: 20px; display: flex; flex-direction: column; gap: 7px; }
+    .guide-note {
+      margin-top: 14px; padding: 10px 12px;
+      background: rgba(99,102,241,0.05); border-left: 2px solid var(--accent);
+      border-radius: 4px; font-size: 12px;
+    }
+
     /* ── Upload ─────────────────────────────────────── */
     .upload-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 
@@ -311,6 +338,30 @@
 
     <!-- Content -->
     <div class="content">
+
+      <!-- Usage guide -->
+      <details class="card guide-card" id="guideCard">
+        <summary class="guide-summary">
+          <svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="8" cy="8" r="6.5"/><path d="M8 7.5v3.5"/><circle cx="8" cy="5" r="0.6" fill="currentColor"/>
+          </svg>
+          How to use — filing workflow
+          <span class="guide-chevron">▾</span>
+        </summary>
+        <div class="guide-body">
+          <p><b>What this tool does:</b> it reads a company's Word/Excel financial statements and produces an ACRA BizFinX <b>XBRL package</b> (a ZIP of <code>.xbrl</code> / <code>.xsd</code> / linkbase files) that you upload to the BizFinx Preparation Tool 4.0 for filing.</p>
+
+          <ol class="guide-steps">
+            <li><b>Pick a company</b> in the left sidebar (or click <b>Run Demo</b> to try the built-in EVX Ventures sample — no upload needed).</li>
+            <li><b>Upload inputs</b> — drop the <b>Word</b> financial statements (<code>.docx</code>) and/or the <b>Excel</b> figures into the Input Files boxes. The Word file supplies the full-statements text block; Excel supplies the tagged figures.</li>
+            <li><b>Choose a mode</b> — <b>Pre-fill</b> (Excel + JSON to review) or <b>Full XBRL Package</b> (the ZIP for filing). Leave <b>Skip Validation</b> off so calc/sign checks run first.</li>
+            <li><b>Run</b> — watch the log. Green = pass, yellow = warnings to review, red = errors to fix in the source file before re-running.</li>
+            <li><b>Download ZIP</b> and open it in BizFinx → <b>Validate</b> (offline), then <b>Validate Online</b> → <b>Acknowledge and Upload</b>.</li>
+          </ol>
+
+          <p class="guide-note"><b>Note:</b> the review-copy PDF and the online validation are produced by <b>BizFinx</b>, not by this tool. This tool only builds the XBRL package that feeds them.</p>
+        </div>
+      </details>
 
       <!-- Upload -->
       <div class="card">
