@@ -323,12 +323,12 @@
     {
       "element": "sg-as:TradeAndOtherPayablesCurrent",
       "context": "asof_20251231",
-      "value": -22491
+      "value": 22491
     },
     {
       "element": "sg-as:TradeAndOtherPayablesCurrent",
       "context": "asof_20241231",
-      "value": -6867
+      "value": 6867
     },
     {
       "element": "sg-as:CurrentLoansAndBorrowings",
@@ -363,12 +363,12 @@
     {
       "element": "sg-as:CurrentLiabilities",
       "context": "asof_20251231",
-      "value": -21631
+      "value": 23351
     },
     {
       "element": "sg-as:CurrentLiabilities",
       "context": "asof_20241231",
-      "value": 22917
+      "value": 36651
     },
     {
       "element": "sg-as:TradeAndOtherPayablesNoncurrent",
@@ -433,12 +433,12 @@
     {
       "element": "sg-as:Liabilities",
       "context": "asof_20251231",
-      "value": 7106156
+      "value": 7151138
     },
     {
       "element": "sg-as:Liabilities",
       "context": "asof_20241231",
-      "value": 7007101
+      "value": 7020835
     },
     {
       "element": "sg-as:ShareCapital",
@@ -488,7 +488,7 @@
     {
       "element": "sg-as:OtherIncome",
       "context": "fromto_20240101_20241231",
-      "value": -40360
+      "value": 40360
     },
     {
       "element": "sg-as:EmployeeBenefitsExpense",
@@ -548,7 +548,7 @@
     {
       "element": "sg-as:ProfitLossBeforeTaxation",
       "context": "fromto_20240101_20241231",
-      "value": -168565
+      "value": -87845
     },
     {
       "element": "sg-as:TaxExpenseBenefitContinuingOperations",
@@ -1038,22 +1038,22 @@
     {
       "element": "sg-as:OtherPayables",
       "context": "asof_20251231",
-      "value": -22491
+      "value": 22491
     },
     {
       "element": "sg-as:OtherPayables",
       "context": "asof_20241231",
-      "value": -6867
+      "value": 6867
     },
     {
       "element": "sg-as:TradeAndOtherPayables",
       "context": "asof_20251231",
-      "value": -22491
+      "value": 22491
     },
     {
       "element": "sg-as:TradeAndOtherPayables",
       "context": "asof_20241231",
-      "value": -6867
+      "value": 6867
     },
     {
       "element": "sg-as:BankOverdrafts",
@@ -1223,7 +1223,7 @@
     {
       "element": "sg-as:MiscellaneousIncomeClassifiedAsOtherIncome",
       "context": "fromto_20240101_20241231",
-      "value": -40360
+      "value": 40360
     },
     {
       "element": "sg-as:IncreaseDecreaseInInventoriesOfFinishedGoodsAndWorkInProgress",
