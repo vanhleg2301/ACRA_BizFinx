@@ -45,6 +45,13 @@ def run_acra(args: list[str]) -> tuple[bool, str]:
     return proc.returncode == 0, output.strip()
 
 
+@app.errorhandler(Exception)
+def handle_error(e):
+    if request.path in ("/run", "/demo"):
+        return jsonify({"success": False, "output": f"Server error: {e}"}), 200
+    raise e
+
+
 @app.route("/")
 def index():
     return render_template("index.html", companies=get_companies())
@@ -63,9 +70,18 @@ def run():
         f = request.files.get(field)
         if f and f.filename:
             ext = Path(f.filename).suffix.lower()
+            target = INPUTS / f"{uen}{ext}"
             for old in INPUTS.glob(f"{uen}*{ext}"):
-                old.unlink()
-            f.save(str(INPUTS / f"{uen}{ext}"))
+                if old == target:
+                    continue
+                try:
+                    old.unlink()
+                except OSError:
+                    pass
+            try:
+                f.save(str(target))
+            except OSError as e:
+                return jsonify({"success": False, "output": f"Could not save {target.name}: {e}. Close the file if it is open elsewhere and retry."}), 200
 
     args = ["run", "--company", uen]
     if mode == "xbrl":
