@@ -17,3 +17,6 @@ inputs/
 build/
 dist/
 *.spec
+
+# Customer release package (rebuilt via build_exe.py, not source)
+release/
