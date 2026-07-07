@@ -1,14 +1,42 @@
 from flask import Flask, render_template, request, jsonify, send_file
-import subprocess, sys, os, re, io, zipfile
+import contextlib, io, os, re, socket, sys, threading, webbrowser, zipfile
 from pathlib import Path
 import yaml
 
-app = Flask(__name__)
+FROZEN = getattr(sys, "frozen", False)
 
-BASE = Path(__file__).resolve().parent.parent
+if FROZEN:
+    # windowed (--noconsole) builds have no real stdio; print()/Console()
+    # writes to None would crash without a sink to redirect to.
+    if sys.stdout is None:
+        sys.stdout = open(os.devnull, "w")
+    if sys.stderr is None:
+        sys.stderr = open(os.devnull, "w")
+
+# Packaged (.exe): keep companies/inputs/output next to the executable, not in
+# PyInstaller's transient extraction folder. Dev/source run: repo root.
+BASE = Path(sys.executable).resolve().parent if FROZEN else Path(__file__).resolve().parent.parent
 INPUTS = BASE / "inputs"
 OUTPUT = BASE / "output"
 COMPANIES = BASE / "companies"
+
+if not FROZEN:
+    sys.path.insert(0, str(BASE / "src"))
+
+import acra_helper.cli as acra_cli  # noqa: E402
+
+# acra_helper.cli resolves company/input/output paths off its own module-level
+# BASE (repo-root-relative) — override it to match this app's BASE so a
+# packaged build reads/writes next to the .exe instead of inside the bundle.
+acra_cli.BASE = BASE
+
+app = Flask(
+    __name__,
+    template_folder=str(Path(sys._MEIPASS) / "templates") if FROZEN else "templates",
+)
+
+for d in (INPUTS, OUTPUT, COMPANIES):
+    d.mkdir(parents=True, exist_ok=True)
 
 
 def strip_ansi(text: str) -> str:
@@ -25,24 +53,22 @@ def get_companies() -> list[dict]:
     return result
 
 
-def run_acra(args: list[str]) -> tuple[bool, str]:
-    env = os.environ.copy()
-    env["PYTHONPATH"] = str(BASE / "src")
-    env["NO_COLOR"] = "1"
-    env["TERM"] = "dumb"
-    env["PYTHONIOENCODING"] = "utf-8"
+def run_acra(fn, *args, **kwargs) -> tuple[bool, str]:
+    """Run an acra_helper.cli entry point in-process, capturing its console output.
 
-    proc = subprocess.run(
-        [sys.executable, "-m", "acra_helper.cli"] + args,
-        capture_output=True,
-        text=True,
-        cwd=str(BASE),
-        env=env,
-        encoding="utf-8",
-        errors="replace",
-    )
-    output = strip_ansi((proc.stdout or "") + (proc.stderr or ""))
-    return proc.returncode == 0, output.strip()
+    Runs in-process (rather than spawning sys.executable as a subprocess) so
+    this works both from source and inside a frozen .exe, where sys.executable
+    is the app itself, not a Python interpreter.
+    """
+    buf = io.StringIO()
+    try:
+        with contextlib.redirect_stdout(buf), contextlib.redirect_stderr(buf):
+            returncode = fn(*args, **kwargs)
+        ok = returncode == 0
+    except Exception as e:
+        buf.write(f"\nError: {e}")
+        ok = False
+    return ok, strip_ansi(buf.getvalue()).strip()
 
 
 @app.errorhandler(Exception)
@@ -83,13 +109,9 @@ def run():
             except OSError as e:
                 return jsonify({"success": False, "output": f"Could not save {target.name}: {e}. Close the file if it is open elsewhere and retry."}), 200
 
-    args = ["run", "--company", uen]
-    if mode == "xbrl":
-        args.append("--xbrl")
-    if skip_val:
-        args.append("--skip-validation")
-
-    ok, output = run_acra(args)
+    ok, output = run_acra(
+        acra_cli.run_company, uen, skip_validation=skip_val, generate_xbrl=(mode == "xbrl")
+    )
     has_output = OUTPUT.exists() and any(OUTPUT.glob(f"{uen}*"))
 
     return jsonify({"success": ok, "output": output, "has_output": has_output, "uen": uen})
@@ -97,7 +119,7 @@ def run():
 
 @app.route("/demo", methods=["POST"])
 def demo():
-    ok, output = run_acra(["demo"])
+    ok, output = run_acra(acra_cli.demo)
     uen = "201631437H"
     has_output = OUTPUT.exists() and any(OUTPUT.glob(f"{uen}*"))
     return jsonify({"success": ok, "output": output, "has_output": has_output, "uen": uen})
@@ -165,7 +187,25 @@ def output_files(uen):
     return jsonify(files)
 
 
+def _free_port(preferred: int = 5000) -> int:
+    for port in range(preferred, preferred + 20):
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            try:
+                s.bind(("127.0.0.1", port))
+                return port
+            except OSError:
+                continue
+    return preferred
+
+
 if __name__ == "__main__":
+    port = _free_port(5000)
+    url = f"http://localhost:{port}"
     print("\n  ACRA Helper — Web UI")
-    print("  http://localhost:5000\n")
-    app.run(debug=True, port=5000, host="0.0.0.0")
+    print(f"  {url}\n")
+
+    if FROZEN:
+        threading.Timer(1.0, lambda: webbrowser.open(url)).start()
+        app.run(debug=False, use_reloader=False, port=port, host="127.0.0.1")
+    else:
+        app.run(debug=True, port=port, host="0.0.0.0")

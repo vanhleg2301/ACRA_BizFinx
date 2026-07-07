@@ -12,3 +12,8 @@ inputs/
 
 # Local settings
 .claude/settings.local.json
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
